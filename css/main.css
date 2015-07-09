@@ -251,33 +251,37 @@ footer {
 }
 
 /******************************************
-/* mobile                   
+/* mobile                    
 /*******************************************/
 
-@media only screen and (min-width: 768px) {
-    
-body {
+
+@media only screen and (max-width: 1218px) {
+	.blurb {
+		width: 70%;
+	}
+	.tout {
+	width: 100%;
+	}
+	.tagline {
+ 	display: none;
+	}
+	.wrapper1 {
+	display: none;
+	}
+}
+/*@media only screen and (max-width: 1028px) {
+
+    body {
      font-size: 3em;
     }
+	.blurb {
+		width: 70%;
+	}
 
-.blurb {
-	width: 20%;
-}
-
-.touts {
-	width: 100%;
-}
-
-.tagline {
- display: none;
-}
-
-}
+	.touts {
+		width: 100%;
+	}
 
 
-@media only screen and (min-width: 1024px) {
-     body {
-          font-size: 20px;
-     }
 
-}
+}*/
